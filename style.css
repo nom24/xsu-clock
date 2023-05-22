@@ -8,7 +8,8 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: #000000;
+    background: url(https://i.pinimg.com/originals/c3/b9/01/c3b90183c2313b30a3c0c3bdfc3084f9.gif) center center fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;

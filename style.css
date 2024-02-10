@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh; /* Set min-height to ensure content exceeds viewport height */
-    background: url(https://i.pinimg.com/originals/14/3b/ba/143bba7ef1da21391704c5b2db969210.gif) center center fixed;
+    background: url(https://i.pinimg.com/originals/31/75/6d/31756d4884b505cda015cde1975555ba.gif) center center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -29,15 +29,36 @@
     font-size: 60px;
     font-weight: 300px;
     letter-spacing: 5px;
+    font-style: italic;
 }
 
 #device-name {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 10px;
     font-weight: 30px;
     letter-spacing: 2px;
+}
+
+.container .content {
+    text-align: center; /* Center align the image boxes */
+}
+
+.image-box {
+    display: inline-block;
+    width: 500px; 
+    text-align: center;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-box p {
+    margin-top: 10px;
+    font-size: 14px;
 }
